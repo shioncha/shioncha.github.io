@@ -1,10 +1,11 @@
-body {background-color: #f2eee4;/*背景色*/
+body {background: #E6F8E8;
       font-family: "Helvetica Neue",
       Arial,
       "Hiragino Kaku Gothic ProN",
       "Hiragino Sans",
       Meiryo,
-      sans-serif;}
+      sans-serif;
+     }
 h1 {
     padding-bottom: 1px;
     color: #2196F3;/*文字色*/
@@ -14,25 +15,27 @@ h1 {
     letter-spacing: 2px;
    }
 h2 {
+  padding: 8px 19px;
+    margin: 2em 0;
+    color: #333;
+    background: #fff;
+    border-top: solid 3px #5989cf;
+    border-bottom: solid 3px #5989cf;
     font-weight: bold;
     padding-bottom: 10px;
     position: relative;
     letter-spacing: 5px;
-  padding: 0.5em 1em;
-    color: #6091d3;/*文字色*/
-    background: #FFF;
-    border: solid 2px #6091d3;/*線*/
-    border-radius: 30px;/*角の丸み*/
     text-align: center;
    } 
-p{  color: #fff;/*文字色*/
+p{  color: #000;/*文字色*/
     padding: 0.5em 1em;
     margin: 2em 0;
-    background: #81f093;/*背景色*/
+    background: #fff;/*背景色*/
     border-radius: 5px;/*角の丸み*/
     line-height: 3;
     letter-spacing: 2px;
     position: relative;
+    font-size: 17px;
   }
 h1::after {
     content: "";
@@ -45,3 +48,4 @@ h1::after {
     margin: auto;
     bottom: -5px;
   }
+
