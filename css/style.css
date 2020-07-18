@@ -27,7 +27,7 @@ h2 {
     letter-spacing: 5px;
     text-align: center;
    } 
-p{  color: #000;/*文字色*/
+p,a {  color: #000;/*文字色*/
     padding: 0.5em 1em;
     margin: 2em 0;
     background: #fff;/*背景色*/
@@ -48,4 +48,3 @@ h1::after {
     margin: auto;
     bottom: -5px;
   }
-
