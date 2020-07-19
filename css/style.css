@@ -6,6 +6,12 @@ body {background: #E6F8E8;
       Meiryo,
       sans-serif;
      }
+div {
+    margin: 2em 0;
+    background: #fff;/*背景色*/
+    border-radius: 20px;/*角の丸み*/
+  
+}
 h1 {
     padding-bottom: 1px;
     color: #2196F3;/*文字色*/
@@ -15,10 +21,8 @@ h1 {
     letter-spacing: 2px;
    }
 h2 {
-  padding: 8px 19px;
-    margin: 2em 0;
+    padding: 8px 19px;
     color: #333;
-    background: #fff;
     border-top: solid 3px #5989cf;
     border-bottom: solid 3px #5989cf;
     font-weight: bold;
@@ -29,9 +33,6 @@ h2 {
    } 
 p {  color: #000;/*文字色*/
     padding: 0.5em 1em;
-    margin: 2em 0;
-    background: #fff;/*背景色*/
-    border-radius: 5px;/*角の丸み*/
     line-height: 3;
     letter-spacing: 2px;
     position: relative;
