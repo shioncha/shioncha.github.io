@@ -6,12 +6,6 @@ body {background: #E6F8E8;
       Meiryo,
       sans-serif;
      }
-div {
-    margin: 2em 0;
-    background: #fff;/*背景色*/
-    border-radius: 20px;/*角の丸み*/
-  
-}
 h1 {
     padding-bottom: 1px;
     color: #2196F3;/*文字色*/
@@ -21,22 +15,46 @@ h1 {
     letter-spacing: 2px;
    }
 h2 {
-    padding: 8px 19px;
-    color: #333;
-    border-top: solid 3px #5989cf;
-    border-bottom: solid 3px #5989cf;
+    width: 25%;
+    padding: 0.5em 1em;
+    margin-left: 10px;
+    color: #474747;
+    background: whitesmoke;/*背景色*/
+    border-left: 3px solid #4ec4d3;/*左線*/
     font-weight: bold;
     padding-bottom: 10px;
-    position: relative;
-    letter-spacing: 5px;
+    letter-spacing: 2px;
     text-align: center;
    } 
-p {  color: #000;/*文字色*/
+p { color: #474747;
     padding: 0.5em 1em;
-    line-height: 3;
+    margin: 10px;
+    background: whitesmoke;/*背景色*/
+    border-radius: 5px;/*角の丸み*/
+    line-height: 34px;
     letter-spacing: 2px;
+    font-size: 16px;
+  }
+.links { 
+    text-align: center;
     position: relative;
-    font-size: 17px;
+    color: #474747;
+    padding: 0.5em 1em;
+    margin: 10px;
+    background: whitesmoke;/*背景色*/
+    border-radius: 5px;/*角の丸み*/
+    line-height: 34px;
+    letter-spacing: 2px;
+    font-size: 16px;
+    text-decoration: none;
+    border: solid 2px #4ec4d3;
+      /*border: solid 3px #575757;/*線*/
+    /*
+    padding: 0.5em 1em;
+    margin: 10px;
+    color: #474747;
+    background: whitesmoke;/*背景色*/
+    /*border-radius: 5px;/*角の丸み*/
   }
 h1::after {
     content: "";
