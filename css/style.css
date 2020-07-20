@@ -5,6 +5,7 @@ body {background: #E6F8E8;
       "Hiragino Sans",
       Meiryo,
       sans-serif;
+      font-size: 16px;
      }
 h1 {
     padding-bottom: 1px;
@@ -14,40 +15,32 @@ h1 {
     margin: 0 0 30px 0;
     letter-spacing: 2px;
    }
+div{background: whitesmoke;/*背景色*/
+    border-radius: 10px;/*角の丸み*/
+    margin: 10px;
+    color: #474747;}
 h2 {
-    width: 25%;
     padding: 0.5em 1em;
-    margin-left: 10px;
-    color: #474747;
-    background: whitesmoke;/*背景色*/
+    margin: 10px;
     border-left: 3px solid #4ec4d3;/*左線*/
     font-weight: bold;
     padding-bottom: 10px;
     letter-spacing: 2px;
-    text-align: center;
    } 
-p { color: #474747;
-    padding: 0.5em 1em;
-    margin: 10px;
-    background: whitesmoke;/*背景色*/
-    border-radius: 5px;/*角の丸み*/
+a {text-decoration: none;}
+p { padding: 0.5em 1em;
     line-height: 34px;
     letter-spacing: 2px;
-    font-size: 16px;
   }
 .links { 
     text-align: center;
-    position: relative;
     color: #474747;
     padding: 0.5em 1em;
-    margin: 10px;
-    background: whitesmoke;/*背景色*/
     border-radius: 5px;/*角の丸み*/
     line-height: 34px;
     letter-spacing: 2px;
-    font-size: 16px;
-    text-decoration: none;
     border: solid 2px #4ec4d3;
+    margin: 10px;
       /*border: solid 3px #575757;/*線*/
     /*
     padding: 0.5em 1em;
