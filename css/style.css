@@ -18,7 +18,8 @@ h1 {
 div{background: whitesmoke;/*背景色*/
     border-radius: 10px;/*角の丸み*/
     margin: 10px;
-    color: #474747;}
+    color: #474747;
+   }
 h2 {
     padding: 0.5em 1em;
     margin: 10px;
@@ -33,7 +34,6 @@ p { padding: 0.5em 1em;
     letter-spacing: 2px;
   }
 .links { 
-    text-align: center;
     color: #474747;
     padding: 0.5em 1em;
     border-radius: 5px;/*角の丸み*/
@@ -41,7 +41,10 @@ p { padding: 0.5em 1em;
     letter-spacing: 2px;
     border: solid 2px #4ec4d3;
     margin: 10px;
-  }
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   }
 h1::after {
     content: "";
     display: block;
