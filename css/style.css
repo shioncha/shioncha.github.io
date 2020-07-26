@@ -46,6 +46,14 @@ p { padding: 0.5em 1em;
     align-items: center;
     font-size: 22px;
    }
+footer{
+    clear:both;
+    height:80px;
+    text-align:center;
+    font-size:0.85em;
+    background-color: #4ec4d3;
+    color: #fff;
+}
 h1::after {
     content: "";
     display: block;
@@ -57,3 +65,5 @@ h1::after {
     margin: auto;
     bottom: -5px;
   }
+.links:hover {background-color:#4ec4d3;
+            color: #fff}
