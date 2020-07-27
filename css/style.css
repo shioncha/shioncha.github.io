@@ -48,7 +48,6 @@ p { padding: 0.5em 1em;
    }
 footer{
     clear:both;
-    height:80px;
     text-align:center;
     font-size:0.85em;
     background-color: #4ec4d3;
@@ -66,4 +65,4 @@ h1::after {
     bottom: -5px;
   }
 .links:hover {background-color:#4ec4d3;
-            color: #fff}
+              color: #fff}
