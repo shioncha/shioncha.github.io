@@ -1,3 +1,6 @@
+html {
+ -webkit-text-size-adjust: 100%;
+}
 body {background: #E6F8E8;
       font-family: "Helvetica Neue",
       Arial,
@@ -9,11 +12,11 @@ body {background: #E6F8E8;
 
      }
 h1 {
+    font-size: 50px;
     padding-bottom: 1px;
     color: #2196F3;/*文字色*/
-    text-align: center;
     position: relative;
-    margin: 0 0 30px 0;
+    margin: 25px;
     letter-spacing: 2px;
    }
 .main{background: whitesmoke;/*背景色*/
@@ -21,7 +24,7 @@ h1 {
     margin: 10px;
     color: #474747;
    }
-h2,h3 {
+h2 {
     padding: 0.5em 1em;
     margin: 10px;
     border-left: 3px solid #4ec4d3;/*左線*/
@@ -29,6 +32,16 @@ h2,h3 {
     padding-bottom: 10px;
     letter-spacing: 2px;
     } 
+h3 {
+    font-size: 20px;
+    padding: 0.5em 1em;
+    margin: 20px;
+    border-left: 2px solid #4ec4d3;/*左線*/
+    font-weight: bold;
+    padding-bottom: 10px;
+    letter-spacing: 1px;
+    } 
+
 a {text-decoration: none;}
 p { padding: 0.5em 1em;
     line-height: 34px;
@@ -45,7 +58,7 @@ p { padding: 0.5em 1em;
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 22px;
+    font-size: 20px;
    }
 footer{
     clear:both;
@@ -54,17 +67,7 @@ footer{
     background-color: #4ec4d3;
     color: #fff;
 }
-h1::after {
-    content: "";
-    display: block;
-    border-bottom: solid 3px #2196F3;
-    position: absolute;
-    width: 100px;
-    right: 0;
-    left: 0;
-    margin: auto;
-    bottom: -5px;
-  }
+
 .links:hover {background-color:#4ec4d3;
               color: #fff}
 
@@ -173,4 +176,29 @@ padding-left:5px; /* 左側の余白を5pxで調整する */
 }
 .page-contents a{
 text-decoration:none; /* 装飾(下線)を消す */
+}
+
+a {
+  position: relative;
+  display: inline-block;
+  text-decoration: none;
+}
+.h-links {
+  font-size: 22px;
+  color: aqua;;
+  margin: 10px;}
+.h-links::after {
+  position: absolute;
+  bottom: -4px;
+  left: 0;
+  content: '';
+  width: 100%;
+  height: 2px;
+  background: #333;
+  transform: scale(0, 1);
+  transform-origin: left top;
+  transition: transform .3s;
+}
+.h-links:hover::after {
+  transform: scale(1, 1);
 }
