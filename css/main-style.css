@@ -202,3 +202,4 @@ a {
 .h-links:hover::after {
   transform: scale(1, 1);
 }
+.resizeimageimg { width: 100%; }
