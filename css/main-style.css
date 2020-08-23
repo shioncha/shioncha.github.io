@@ -8,7 +8,7 @@ body {background: #E6F8E8;
       "Hiragino Sans",
       Meiryo,
       sans-serif;
-      font-size: 18px;
+      font-size: px;
 
      }
 h1 {
@@ -22,7 +22,7 @@ h1 {
 .main{background: whitesmoke;/*背景色*/
     border-radius: 10px;/*角の丸み*/
     margin: 10px;
-    color: #474747;
+    color: #000;
    }
 h2 {
     padding: 0.5em 1em;
@@ -204,6 +204,4 @@ a {
 }
 .resizeimageimg {
     width: 100%;
-  margin: 0 auto;
-  max-width: 750px;
-  text-align: center;}
+ margin: 0 auto;}
