@@ -202,4 +202,8 @@ a {
 .h-links:hover::after {
   transform: scale(1, 1);
 }
-.resizeimageimg { width: 100%; }
+.resizeimageimg {
+    width: 100%;
+  margin: 0 auto;
+  max-width: 750px;
+  text-align: center;}
