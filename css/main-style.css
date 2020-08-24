@@ -1,6 +1,3 @@
-html {
- -webkit-text-size-adjust: 100%;
-}
 body {background: #E6F8E8;
       font-family: "Helvetica Neue",
       Arial,
@@ -8,8 +5,8 @@ body {background: #E6F8E8;
       "Hiragino Sans",
       Meiryo,
       sans-serif;
-      font-size: px;
-
+      font-size: 16px;
+      line-height: 1.5em;
      }
 h1 {
     font-size: 50px;
@@ -19,10 +16,10 @@ h1 {
     margin: 25px;
     letter-spacing: 2px;
    }
-.main{background: whitesmoke;/*背景色*/
+.main{
+    background: whitesmoke;/*背景色*/
     border-radius: 10px;/*角の丸み*/
     margin: 10px;
-    color: #000;
    }
 h2 {
     padding: 0.5em 1em;
@@ -42,7 +39,8 @@ h3 {
     letter-spacing: 1px;
     } 
 
-a {text-decoration: none;}
+a {font-size: 18px;
+  text-decoration: none;}
 p { padding: 0.5em 1em;
     line-height: 34px;
     letter-spacing: 2px;
@@ -204,4 +202,4 @@ a {
 }
 .resizeimageimg {
     width: 100%;
- margin: 0 auto;}
+  margin: 0 auto;}
