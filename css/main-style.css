@@ -17,7 +17,7 @@ h1 {
     letter-spacing: 2px;
    }
 .main{
-    background: whitesmoke;/*背景色*/
+    background: white;/*背景色*/
     border-radius: 10px;/*角の丸み*/
     margin: 10px;
    }
