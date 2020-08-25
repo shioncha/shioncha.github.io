@@ -1,205 +1,69 @@
-body {background: #E6F8E8;
-      font-family: "Helvetica Neue",
-      Arial,
-      "Hiragino Kaku Gothic ProN",
-      "Hiragino Sans",
-      Meiryo,
-      sans-serif;
-      font-size: 16px;
-      line-height: 1.5em;
-     }
-h1 {
-    font-size: 50px;
-    padding-bottom: 1px;
-    color: #2196F3;/*文字色*/
-    position: relative;
-    margin: 25px;
-    letter-spacing: 2px;
-   }
-.main{
-    background: white;/*背景色*/
-    border-radius: 10px;/*角の丸み*/
-    margin: 10px;
-   }
-h2 {
-    padding: 0.5em 1em;
-    margin: 10px;
-    border-left: 3px solid #4ec4d3;/*左線*/
-    font-weight: bold;
-    padding-bottom: 10px;
-    letter-spacing: 2px;
-    } 
-h3 {
-    font-size: 20px;
-    padding: 0.5em 1em;
-    margin: 20px;
-    border-left: 2px solid #4ec4d3;/*左線*/
-    font-weight: bold;
-    padding-bottom: 10px;
-    letter-spacing: 1px;
-    } 
-
-a {font-size: 18px;
-  text-decoration: none;}
-p { padding: 0.5em 1em;
-    line-height: 34px;
-    letter-spacing: 2px;
-  }
-.links { 
-    color: #474747;
-    padding: 0.5em 1em;
-    border-radius: 5px;/*角の丸み*/
-    line-height: 34px;
-    letter-spacing: 2px;
-    border: solid 2px #4ec4d3;
-    margin: 10px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 20px;
-   }
-footer{
-    clear:both;
-    text-align:center;
-    font-size:0.85em;
-    background-color: #4ec4d3;
-    color: #fff;
-}
-
-.links:hover {background-color:#4ec4d3;
-              color: #fff}
-
-header {
-  padding:10px;
- }
-
-
-#nav-drawer {
-  position: relative;
-}
-
-/*ヘッダーまわりはサイトに合わせて調整してください*/
-header {
-  padding:10px;
-  background: skyblue;
-}
-
-#nav-drawer {
-  position: relative;
-}
-
-/*チェックボックス等は非表示に*/
-.nav-unshown {
-  display:none;
-}
-
-/*アイコンのスペース*/
-#nav-open {
-  display: inline-block;
-  width: 30px;
-  height: 22px;
-  vertical-align: middle;
-}
-
-/*ハンバーガーアイコンをCSSだけで表現*/
-#nav-open span, #nav-open span:before, #nav-open span:after {
-  position: absolute;
-  height: 3px;/*線の太さ*/
-  width: 25px;/*長さ*/
-  border-radius: 3px;
-  background: #555;
-  display: block;
-  content: '';
-  cursor: pointer;
-}
-#nav-open span:before {
-  bottom: -8px;
-}
-#nav-open span:after {
-  bottom: -16px;
-}
-
-/*閉じる用の薄黒カバー*/
-#nav-close {
-  display: none;/*はじめは隠しておく*/
-  position: fixed;
-  z-index: 99;
-  top: 0;/*全体に広がるように*/
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background: black;
-  opacity: 0;
-  transition: .3s ease-in-out;
-}
-
-/*中身*/
-#nav-content {
-  overflow: auto;
-  position: fixed;
-  top: 0;
-  left: 0;
-  z-index: 9999;/*最前面に*/
-  width: 90%;/*右側に隙間を作る（閉じるカバーを表示）*/
-  max-width: 330px;/*最大幅（調整してください）*/
-  height: 100%;
-  transition: .3s ease-in-out;/*滑らかに表示*/
-  -webkit-transform: translateX(-105%);
-  transform: translateX(-105%);/*左に隠しておく*/
-  background:rgba(255,255,255,0.9);
-}
-
-/*チェックが入ったらもろもろ表示*/
-#nav-input:checked ~ #nav-close {
-  display: block;/*カバーを表示*/
-  opacity: .5;
-}
-
-#nav-input:checked ~ #nav-content {
-  -webkit-transform: translateX(0%);
-  transform: translateX(0%);/*中身を表示（右へスライド）*/
-  box-shadow: 6px 0 25px rgba(0,0,0,.15);
-}
-@media screen and (min-width:480px) {
-  #nav-open , header{
-    display:none;
-  }
-}
-
-.header {color: #555;}
-/* もくじ */
-.page-contents{
-list-style:none; /* 冒頭の数字が不要なので消す */
-padding-left:5px; /* 左側の余白を5pxで調整する */
-}
-.page-contents a{
-text-decoration:none; /* 装飾(下線)を消す */
-}
-
-a {
-  position: relative;
-  display: inline-block;
-  text-decoration: none;
-}
-.h-links {
-  font-size: 22px;
-  color: aqua;;
+body {
+  background: #E6F8E8;
+  font-family: "Helvetica Neue",
+  Arial,
+  "Hiragino Kaku Gothic ProN",
+  "Hiragino Sans",
+  Meiryo,
+  sans-serif;
+  font-size: 16px;
+  line-height: 1.5em;}
+main{
+  background: white;/*背景色*/
+  border-radius: 10px;/*角の丸み*/
   margin: 10px;}
-.h-links::after {
-  position: absolute;
-  bottom: -4px;
-  left: 0;
-  content: '';
+footer{
+  clear:both;
+  text-align:center;
+  font-size:0.85em;
+  background-color: #4ec4d3;
+  color: #fff;}
+.header {
   width: 100%;
-  height: 2px;
-  background: #333;
-  transform: scale(0, 1);
-  transform-origin: left top;
-  transition: transform .3s;
-}
-.h-links:hover::after {
-  transform: scale(1, 1);
-}
-.resizeimageimg {
-    width: 100%;
   margin: 0 auto;}
+/* TEXT */
+a {
+  font-size: 0.85em;
+  text-decoration: none;}
+p {
+  padding: 0.5em 1em;
+  line-height: 34px;
+  letter-spacing: 2px;}
+h1 {
+  font-size: 50px;
+  padding-bottom: 1px;
+  color: #2196F3;
+  position: relative;
+  margin: 25px;
+  letter-spacing: 2px;}
+h2 {
+  padding: 0.5em 1em;
+  margin: 10px;
+  border-left: 3px solid #4ec4d3;/*左線*/
+  font-weight: bold;
+  padding-bottom: 10px;
+  letter-spacing: 2px;
+  } 
+h3 {
+  font-size: 20px;
+  padding: 0.5em 1em;
+  margin: 20px;
+  border-left: 2px solid #4ec4d3;/*左線*/
+  font-weight: bold;
+  padding-bottom: 10px;
+  letter-spacing: 1px;} 
+.links {
+  font-size: 18px;
+  color: #474747;
+  padding: 0.5em 1em;
+  border-radius: 5px;/*角の丸み*/
+  line-height: 34px;
+  letter-spacing: 2px;
+  border: solid 2px #4ec4d3;
+  margin: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;}
+.links:hover {
+  background-color:#4ec4d3;
+  color: #fff}
