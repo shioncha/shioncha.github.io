@@ -119,3 +119,9 @@ nav li.current{
 nav li:hover{
   color: #E7DA66;
   border-bottom: 3px solid green;}
+#wrapper {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;}
+footer {
+  margin-top: auto;}
