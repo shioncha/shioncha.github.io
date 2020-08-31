@@ -35,9 +35,7 @@ body {
   "Hiragino Kaku Gothic ProN",
   "Hiragino Sans",
   Meiryo,
-  sans-serif;
-  font-size: 16px;
-  line-height: 1.5em;}
+  sans-serif;}
 main{
   background: white;/*背景色*/
   border-radius: 10px;/*角の丸み*/
@@ -53,29 +51,24 @@ footer{
   margin: 0 auto;}
 /* TEXT */
 a {
-  font-size: 0.85em;
+  font-size: 18px;
+  line-height: 1.5em;
   text-decoration: none;}
 p {
   padding: 0.5em 1em;
-  line-height: 34px;
-  letter-spacing: 2px;}
+  line-height: 2.5em;
+  letter-spacing: 2px;
+  font-size: 18px;}
 h1 {
-  font-size: 50px;
-  padding-bottom: 1px;
-  color: #2196F3;
-  position: relative;
-  margin: 25px;
-  letter-spacing: 2px;}
-h2 {
   font-size: 25px;
   padding: 0.5em 1em;
   margin: 10px;
-  border-left: 3px solid #4ec4d3;/*左線*/
+  border-bottom: 3px solid #4ec4d3;/*左線*/
   font-weight: bold;
   padding-bottom: 10px;
   letter-spacing: 2px;
   } 
-h3 {
+h2 {
   font-size: 20px;
   padding: 0.5em 1em;
   margin: 20px;
