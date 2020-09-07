@@ -29,7 +29,6 @@ footer, header, hgroup, menu, nav, section {
 }
 /*START*/
 body {
-  background: #D8FFFF;
   font-family: "Helvetica Neue",
   Arial,
   "Hiragino Kaku Gothic ProN",
@@ -56,15 +55,20 @@ a {
   line-height: 1.5em;
   text-decoration: none;}
 p {
-  padding: 0.5em 1em;
+  padding: 0.5em;
   line-height: 2.5em;
   letter-spacing: 2px;
-  font-size: 18px;}
+  font-size: 18px;
+  margin: 10px;
+  border-left: 1px dotted #82E0D2;}
+orange{color: #FFA500;}
 h1 {
   font-size: 25px;
   padding: 0.5em 1em;
-  margin: 10px;
-  border-bottom: 3px solid #82E0D2;/*下線*/
+  margin-left: 10px;
+  margin-right: 10px;
+  border-left: 6px solid #82E0D2;/*左線*/
+  border-bottom: 2px solid #82E0D2;/*下線*/
   font-weight: bold;
   padding-bottom: 10px;
   letter-spacing: 2px;} 
@@ -72,7 +76,7 @@ h2 {
   font-size: 20px;
   padding: 0.5em 1em;
   margin: 20px;
-  border-left: 2px solid #82E0D2;/*左線*/
+  border-left: 3px solid #82E0D2;/*左線*/
   font-weight: bold;
   padding-bottom: 10px;
   letter-spacing: 1px;} 
@@ -93,9 +97,8 @@ h2 {
   color: #fff}
 nav ul{
   display: table;
-  margin: 0 auto;
   padding: 0 ;
-  width: 95%;
+  width: 100%;
   text-align: center;}
 nav li{
   display: table-cell;
@@ -106,7 +109,8 @@ nav a{
   width: 100%;
   text-decoration: none;
   color: #555;
-  padding-bottom: 5px;}
+  padding-bottom: 5px;
+  border-bottom: 2px solid #49A89c;}
 nav li.current{
   border-bottom: 3px solid #92D050;}
 nav li:hover{
@@ -116,3 +120,5 @@ nav li:hover{
   display: flex;
   flex-direction: column;
   min-height: 100vh;}
+i{margin-right: 10;
+  color: #808080;}
