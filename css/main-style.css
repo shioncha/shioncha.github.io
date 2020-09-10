@@ -7,7 +7,6 @@ body {
   Meiryo,
   sans-serif;}
 main{
-  background: white;/*背景色*/
   border-radius: 10px;/*角の丸み*/
   margin: 1em;}
 footer{
@@ -38,7 +37,6 @@ h1 {
   padding: 0.5em 1em;
   margin-left: 10px;
   margin-right: 10px;
-  border-left: 6px solid #82E0D2;/*左線*/
   border-bottom: 2px solid #82E0D2;/*下線*/
   font-weight: bold;
   padding-bottom: 10px;
@@ -91,5 +89,6 @@ nav li:hover{
   display: flex;
   flex-direction: column;
   min-height: 100vh;}
-i{margin-right: 10;
-  color: #808080;}
+header i{font-size: 2em;}
+main i{
+  margin-right: 10px;}
