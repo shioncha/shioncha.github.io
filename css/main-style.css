@@ -5,7 +5,8 @@ body {
   "Hiragino Kaku Gothic ProN",
   "Hiragino Sans",
   Meiryo,
-  sans-serif;}
+  sans-serif;
+  border-top: 3px solid #4ec4d3}
 main{
   border-radius: 10px;/*角の丸み*/
   margin: 1em;}
@@ -74,7 +75,7 @@ nav li{
   min-width: 50px;}
 nav a{
   border-left: 1px solid#FFF;
-  font-size: 20px;
+  font-size: 2em;
   display: block;
   width: 100%;
   text-decoration: none;
