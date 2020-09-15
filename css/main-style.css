@@ -6,7 +6,7 @@ body {
   "Hiragino Sans",
   Meiryo,
   sans-serif;
-  border-top: 3px solid #4ec4d3}
+  border-top: 5px solid #4ec4d3}
 main{
   border-radius: 10px;/*角の丸み*/
   margin: 1em;}
@@ -80,7 +80,8 @@ nav a{
   width: 100%;
   text-decoration: none;
   color: #FFF;
-  padding-bottom: 5px;}
+  padding-top: 2px;
+  padding-bottom: 2px;}
 #wrapper {
   display: flex;
   flex-direction: column;
@@ -89,9 +90,8 @@ main i{
   margin-right: 10px;}
 header menu{
   width: 80%;
-  background-color: gray;
+  background-color: #767676;
   margin-left: auto;
-border-top: 5px double white;border-left: 5px double white;border-bottom: 5px double white;
 border-top-left-radius: 10px;
 -webkit-border-top-left-radius: 10px;
 -moz-border-radius-topleft: 10px;
