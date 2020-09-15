@@ -9,39 +9,29 @@ body {
   border-top: 5px solid #4ec4d3}
 main{
   border-radius: 10px;/*角の丸み*/
-  margin: 1em;}
+  margin: 1em}
 footer{
   clear:both;
-  text-align:center;
-  font-size:0.85em;
   background-color: #82E0D2;
-  color: #fff;
-  margin-top: auto;}
+  padding-top: 10px}
+footer p,footer a{
+  font-size: 15px;
+  color: #503830;}
+header menu{
+  width: 80%;
+  background-color: #767676;
+  margin-left: auto;
+  border-radius: 1px 1px 1px 30px}
 header img {
-  width: 100%;
-  margin: 0;}
-/* TEXT */
-a {
-  font-size: 18px;
-  line-height: 1.5em;
-  text-decoration: none;}
-p {
-  padding: 0.5em;
-  line-height: 2.5em;
-  letter-spacing: 2px;
-  font-size: 18px;
-  margin: 10px;
-  border-left: 1px dotted #82E0D2;}
-orange{color: #FFA500;}
+  width: 100%}
+/* MAIN */
 h1 {
   font-size: 25px;
-  padding: 0.5em 1em;
   margin-left: 10px;
-  margin-right: 10px;
+  padding: 10px;
   border-bottom: 2px solid #82E0D2;/*下線*/
   font-weight: bold;
-  padding-bottom: 10px;
-  letter-spacing: 2px;} 
+  letter-spacing: 2px}
 h2 {
   font-size: 20px;
   padding: 0.5em 1em;
@@ -49,7 +39,20 @@ h2 {
   border-left: 3px solid #82E0D2;/*左線*/
   font-weight: bold;
   padding-bottom: 10px;
-  letter-spacing: 1px;} 
+  letter-spacing: 1px}
+a {
+  color: black;
+  font-size: 18px;
+  line-height: 1.5em;
+  text-decoration: none;}
+p {
+  font-size: 18px;
+  padding: 0.5em;
+  line-height: 2.5em;
+  letter-spacing: 2px;
+  margin: 10px;
+  border-left: 1px dotted #82E0D2;}
+orange{color: #FFA500;}
 .links {
   font-size: 18px;
   color: #474747;
@@ -88,8 +91,3 @@ nav a{
   min-height: 100vh;}
 main i{
   margin-right: 10px;}
-header menu{
-  width: 80%;
-  background-color: #767676;
-  margin-left: auto;
-  border-radius: 0px 0px 0px 30px}
