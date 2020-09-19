@@ -24,7 +24,10 @@ header menu{
   margin-left: auto;
   border-radius: 1px 1px 1px 30px}
 header img {
-  width: 100%}
+  display: block;
+  margin: auto;
+  text-align : center;
+  width: 80%}
 main h1 {
   font-size: 25px;
   margin-left: 10px;
@@ -75,7 +78,7 @@ nav ul{
   text-align: center}
 nav li{
   display: table-cell;
-  min-width: 50px;}
+  min-width: 50px}
 nav a{
   border-left: 1px solid#FFF;
   font-size: 2em;
