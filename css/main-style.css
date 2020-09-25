@@ -53,14 +53,14 @@ header img {
 }
 
 main h1 {
-  font-size: 25px;
+  font-size: 26px;
   margin-left: 10px;
-  padding: 10px;
+  padding: 12px;
   border-bottom: 2px solid #82E0D2;/*下線*/
   font-weight: bold;
   letter-spacing: 2px}
 main h2 {
-  font-size: 20px;
+  font-size: 23px;
   padding: 0.5em 1em;
   margin: 20px;
   border-left: 3px solid #82E0D2;/*左線*/
@@ -73,12 +73,11 @@ main a {
   line-height: 1.5em;
   text-decoration: none}
 main p {
-  font-size: 18px;
+  font-size: 16px;
   padding: 0.5em;
   line-height: 2.5em;
   letter-spacing: 2px;
-  margin: 10px;
-  border-left: 1px dotted #82E0D2}
+  margin: 10px;}
 orange{color: #FFA500}
 .links {
   font-size: 18px;
