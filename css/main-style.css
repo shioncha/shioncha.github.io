@@ -84,13 +84,15 @@ main p {
 orange{color: #FFA500}
 .links {
   font-size: 18px;
-  color: #474747;
+  color: #4ec4d3;
   padding: 0.5em 1em;
   border-radius: 5px;/*角の丸み*/
   line-height: 34px;
   letter-spacing: 2px;
   border: solid 2px #4ec4d3;
   margin: 10px;
+  margin: auto;
+  width: 80%;
   display: flex;
   justify-content: center;
   align-items: center}
