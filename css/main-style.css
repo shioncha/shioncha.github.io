@@ -1,3 +1,7 @@
+/* http://meyerweb.com/eric/tools/css/reset/ v2.0 | 20110126 License: none (public domain)*/
+html, body, div, span, applet, object, iframe,h1, h2, h3, h4, h5, h6, p, blockquote, pre,a, abbr, acronym, address, big, cite, code,del, dfn, em, img, ins, kbd, q, s, samp,small, strike, strong, sub, sup, tt, var,b, u, i, center,dl, dt, dd, ol, ul, li,fieldset, form, label, legend,table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup ,menu, nav, output, ruby, section, summary,time, mark, audio, video {margin: 0;padding: 0;border: 0;font-size: 100%;font: inherit;vertical-align: baseline;}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {display: block;}
 body {
   font-family: "Helvetica Neue",
   Arial,
@@ -78,20 +82,18 @@ main p {
   letter-spacing: 2px;
   margin: 10px;}
 orange{color: #FFA500}
+main i{
+  margin-right: 10px;margin-right: 1em;margin-left: 1em;}
 .links {
-  font-size: 18px;
+  font-size: 1em;padding: 3px;
   color: #4ec4d3;
-  padding: 0.5em 1em;
-  border-radius: 5px;/*角の丸み*/
-  line-height: 34px;
+  border-radius: 10px 1px 1px 10px;
+  line-height: 32px;
   letter-spacing: 2px;
-  border: solid 2px #4ec4d3;
-  margin: 10px;
-  margin: auto;
-  width: 80%;
-  display: flex;
-  justify-content: center;
-  align-items: center}
+  border-top: solid 1.5px #4ec4d3;border-bottom: solid 1.5px #4ec4d3;border-left: solid 1.5px #4ec4d3;
+  display: flex;margin-left: auto;
+  justify-content: center;width: 55%;
+  align-items: center;}
 .links:hover {
   background-color:#4ec4d3;
   color: #fff}
@@ -115,5 +117,3 @@ nav a{
   display: flex;
   flex-direction: column;
   min-height: 100vh}
-main i{
-  margin-right: 10px}
