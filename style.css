@@ -23,4 +23,5 @@ li {list-style: none;
 li:hover {box-shadow: inset 10px 10px 10px #c7c7c7,
             inset -10px -10px 10px #ffffff;}
 a {color: #000;
+  display:block;
   text-decoration: none;}
